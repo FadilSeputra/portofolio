@@ -157,7 +157,7 @@ a:hover{
   margin-top: none;
   background: #fff;
   width: 100%;
-  height: 1650px;
+  height: 1450px;
 }
 .grid-payment{
   grid-area: main;
@@ -260,13 +260,10 @@ a:hover{
     width: 100%;
     display: flex;
     flex-direction: row;
-    height: 500px;
+    
   }
   .best{
-    position: absolute;
-    display: flex;
-    height: 480px;
-    align-items: none;
+    
   }
   .grid-footer{
     width: 100%;
@@ -285,8 +282,9 @@ a:hover{
     .best{
     position: absolute;
     display: flex;
-    
+    justify-content: center;
     align-items: none;
+    height: 450px;
   }
 .grid-footer{
     width: 100%;
@@ -303,8 +301,9 @@ a:hover{
     .best{
     position: absolute;
     display: flex;
-    
+    justify-content: center;
     align-items: none;
+    height: 450px;
   }
   .grid-footer{
     width: 100%;
@@ -322,8 +321,9 @@ a:hover{
     .best{
     position: absolute;
     display: flex;
-    
+    justify-content: center;
     align-items: none;
+    height: 450px;
   }
   .grid-footer{
     width: 100%;
