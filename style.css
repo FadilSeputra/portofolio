@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+  background-color: white;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.navigasi{
+  height: 80px;
+}
+.grid-header{
+  grid-area: header;
+  background: black;
+  width: 100%;
+}
+.logo{
+  font-size: 35px;
+  font-family: 'Satisfy';
+  margin-top: 20px;
+  margin-left: 20px;
+  position: absolute;
+  display: inline-block;
+  line-height: 30px;
+}
+.logo:hover{
+  width: 100px;
+  line-height: 40px;
+  background-color: white;
+  color: black;
+}
+.pay{
+  margin-top: 8px;
+  margin-right: 200px;
+  position: absolute;
+}
+ul{
+  margin-top: 20px;
+  margin-right: 20px;
+  float: right;
+  display: inline-block;
+  margin-left: 40px;
+  padding-right: 20px;
+}
+li{
+  list-style: none;
+  font-family: Verdana;
+  float: left;
+  padding: 5px;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+  font-weight: lighter;
+  color: white;
+}
+.muncul{
+  background-color: #1d1a1ae5;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  color: white;
+}
+#cari{
+  text-align: center;
+  height: 100px;
+}
+.cari-kanan{
+  float: right;
+  padding: 15px 5px 0 0;
+}
+.kolek{
+  font-size: 20px;
+}
+#koleksi{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+#koleksi > .tombol1{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.tombol{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin: 20px;
+  border-radius: 50%;
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.115);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+.tombol i{
+  line-height: 70px;
+  font-size: 30px;
+  transition: 0.2s linear;
+}
+ .tombol1{
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+.tombol-buy{
+  margin: 0;
+  border-style: none;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #727272;
+  height: 40px;
+  width: 100px;
+  text-decoration: none;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+li:hover {
+  background-color: white;
+  color: black;
+  transition: .2s ;
+  border-radius: 8px;
+}
+a:hover{
+  color: black;
+}
+.grid-main{
+  grid-area: main;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: none;
+  background: #fff;
+  width: 100%;
+  height: 1450px;
+}
+.grid-payment{
+  grid-area: main;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+}
+.item-payment{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+.num{
+  width: 15px;
+  text-align: center;
+  margin: 5px;
+}
+.bank , 
+.kurir{
+  width: 100px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.item1, .item2, .item3, .item4{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #fff;
+  width: 200px;
+  height: 370px;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 0;
+}
+.produk-img{
+  width: 4cm;
+  height: 5cm;
+  object-fit: cover;
+  padding: 10px;
+  overflow: hidden;
+  border: 1px solid #0000;
+  position: block;
+}
+.harga{
+  font-weight: 350;
+  color: red;
+}
+.rate{
+  color: gold;
+}
+.grid-footer{
+  grid-area: footer;
+  height: 200px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.namabawah{
+  text-align: center;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.kontak{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 460px) and (max-width:600px) {
+  .grid-header{
+    width: 100%;
+  }
+  .grid-main{
+    width: 100%;
+  }
+  .grid-footer{
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 600px){
+ .grid-header{
+    width: 100%;
+  }
+  .grid-main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+  }
+  .best{
+    position: absolute;
+    display: flex;
+    height: 480px;
+    align-items: none;
+  }
+  .grid-footer{
+    width: 100%;
+  }
+  
+}
+@media only screen and (min-width: 768px){
+.grid-header{
+  width: 100%;
+}
+.grid-main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+  }
+    .best{
+    position: absolute;
+    display: flex;
+    height: 540px;
+    align-items: none;
+  }
+.grid-footer{
+    width: 100%;
+  }
+@media only screen and (min-width: 992px){
+  .grid-header{
+    width: 100%;
+  }
+  .grid-main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+    .best{
+    position: absolute;
+    display: flex;
+    height: 890px;
+    align-items: none;
+  }
+  .grid-footer{
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1200px){
+   .grid-header{
+    width: 100%;
+  }
+  .grid-main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+    .best{
+    position: absolute;
+    display: flex;
+    height: 1100px;
+    align-items: none;
+  }
+  .grid-footer{
+    width: 100%;
+  }
+}
+}
