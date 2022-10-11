@@ -285,7 +285,7 @@ a:hover{
     .best{
     position: absolute;
     display: flex;
-    height: 540px;
+    
     align-items: none;
   }
 .grid-footer{
@@ -303,7 +303,7 @@ a:hover{
     .best{
     position: absolute;
     display: flex;
-    height: 780px;
+    
     align-items: none;
   }
   .grid-footer{
@@ -322,7 +322,7 @@ a:hover{
     .best{
     position: absolute;
     display: flex;
-    height: 900px;
+    
     align-items: none;
   }
   .grid-footer{
